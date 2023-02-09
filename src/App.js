@@ -1,7 +1,11 @@
 import "./App.css";
-import useFetch from "./useFetch";
+import MemeGenerator from "./MemeGenerator";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <MemeGenerator />
+    </>
+  );
 }
 
 export default App;
