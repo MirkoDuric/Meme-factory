@@ -32,35 +32,45 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
 }
 .bottom-division {
-  margin-top: 30px;
+  text-align: center;
+  margin-top: 50px;
 }
 .img-container {
+  margin-top: 30px;
   text-align: center;
   height: 70vh;
   display: flex;
   flex-direction: column;
 }
 .img-container img {
+  border: 1px solid black;
   margin: 0 auto;
   width: max-content;
-  height: 100%;
+  max-height: 100%;
   position: relative;
 }
 .div1 {
-  left: -70px;
-  color: black;
+  padding: 0;
+  margin: 0;
+  width: max-content;
+  left: 130px;
+  color: white;
+  background-color: black;
   position: relative;
   top: 50px;
   font-size: larger;
   z-index: 3;
 }
 .div2 {
-  color: black;
+  width: max-content;
+  color: white;
+  background-color: black;
   position: relative;
   bottom: 50px;
-  left: -70px;
+  left: 200px;
   font-size: larger;
   z-index: 3;
 }
